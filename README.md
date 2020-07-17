@@ -10,6 +10,9 @@
       -e MONGO_INITDB_ROOT_PASSWORD=secret \\\
       -e MONGO_INITDB_DATABASE=mydb \\\
       mongo:4.2.8
+      [x] GOOD
+    * $docker container run -d --name mongo --network demo-network -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=secret -e MONGO_INITDB_DATABASE=mydb mongo:4.2.8
+      [] BAD
 
 # Leverage build cache
 
