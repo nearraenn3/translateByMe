@@ -30,10 +30,10 @@
 
 * เมื่อแคชไม่ถูกต้องคำสั่ง Dockerfile ที่ตามมาทั้งหมดจะสร้างรูปภาพใหม่โดยไม่ใช้ **Caching**
 
-# Dockerfile instructions //Short
+# Dockerfile instructions
 
-# FROM //Short
+# FROM
 
 # LABEL
 
-# RUN //Short
+# RUN
